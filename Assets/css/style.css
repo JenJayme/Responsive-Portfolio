@@ -1,0 +1,31 @@
+.box-background {
+    background-color:#dedede;
+}
+
+h3 {
+    color:rgb(89,170,165);
+}
+
+.box-content {
+    background-color:whitesmoke;
+    padding:20px 50px 15px;
+    max-width:720px;
+    margin-left:30px;
+}
+
+.page-head, h3 {
+    font-family: Georgia,'Times New Roman', Times, serif; 
+    font-weight:bold;
+    font-size:24px;
+}
+
+.page-head {
+    background-color:rgb(89,170,165); 
+    color:white; 
+    padding:15px 20px;
+} 
+
+.navbar-dark .navbar-nav .menu-item {
+    color:#ababab;
+}
+
