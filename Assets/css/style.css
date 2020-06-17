@@ -29,3 +29,11 @@ h3 {
     color:#ababab;
 }
 
+.column-sm-12 .float-sm-none .profile-pic {
+    float: left;
+    max-width:30%;
+    height:auto;
+    flex-wrap: wrap;
+
+}
+
