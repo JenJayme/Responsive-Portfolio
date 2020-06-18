@@ -9,7 +9,7 @@ h3 {
 .box-content {
     background-color:whitesmoke;
     padding:20px 50px 15px;
-    max-width:40%;
+    /* max-width:40%; */
     margin-left:30px;
 }
 
@@ -21,11 +21,11 @@ h3 {
 
 .page-head {
     background-color:rgb(89,170,165); 
-    color:white; 
+    color:white !important; 
     padding:15px 20px;
 } 
 
-.navbar-dark .navbar-nav .menu-item {
+.navbar-light .navbar-nav .menu-item {
     color:#ababab;
 }
 
@@ -41,7 +41,10 @@ h3 {
 .profile-pic {
     width:200px;
     height:200px;
-    float: left;
+    float: left !important;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .port-image {
