@@ -1,0 +1,43 @@
+IN PORTFOLIO
+portfolio.html --> /assets/portfolio.html
+contact.html --> assets/css/contact.html
+index.html --< assets/images/index.html
+
+    <li class="nav-item">
+      <a class="nav-link menu-item" href="images/index.html">About <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-item" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-item active" href="css/contact.html">Contact<span class="sr-only">(current)</span></a></li>
+
+
+IN CONTACT
+portfolio.html --> /assets/portfolio.html
+contact.html --> assets/css/contact.html
+index.html --< assets/images/index.html
+
+    <li class="nav-item">
+      <a class="nav-link menu-item" href="../images/index.html">About <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-item" href="../portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-item active" href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+
+IN FILE.HTML
+portfolio.html --> /assets/portfolio.html
+contact.html --> assets/css/contact.html
+index.html --< assets/images/index.html
+file.html --> base/temp/file.html
+
+    <li class="nav-item">
+      <a class="nav-link menu-item" href="../../assets/images/index.html">About <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-item" href="../../assets/portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link menu-item active" href="../../assets/css/contact.html">Contact<span class="sr-only">(current)</span></a></li>
