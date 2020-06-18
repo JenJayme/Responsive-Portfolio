@@ -55,3 +55,9 @@ h3 {
     float:none;
     margin-bottom:50px;
 }
+
+footer {
+    text-align: center;
+    color:whitesmoke;
+    background-color:#555555;
+}
