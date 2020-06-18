@@ -9,7 +9,6 @@ h3 {
 .box-content {
     background-color:whitesmoke;
     padding:20px 50px 15px;
-    /* max-width:40%; */
     margin-left:30px;
 }
 
@@ -48,16 +47,36 @@ h3 {
 }
 
 .port-image {
-    background-color:blue;
-    border-color:white;
+    position: relative;
     padding:10px;
     align:center;
     float:none;
     margin-bottom:50px;
+
+}
+
+.port-label {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 60%;
+    text-align:center;
+    width: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(89,170,165);
+    padding: 10px;
 }
 
 footer {
     text-align: center;
     color:whitesmoke;
     background-color:#555555;
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: rgb(89,170,165);
 }
