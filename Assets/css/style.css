@@ -1,74 +1,17 @@
-.box-background {
-    background-color:#dedede;
+p {
+    font-family: 'Quicksand', sans-serif;
 }
 
-h3 {
-    color:rgb(89,170,165);
+h1 {
+    font-family: 'Quicksand', sans-serif;
 }
 
-.box-content {
-    background-color:whitesmoke;
-    padding:20px 50px 15px;
-    margin-left:30px;
+.name {
+    font-size: 40px;
 }
-
-.page-head, h3 {
-    font-family: Georgia,'Times New Roman', Times, serif; 
-    font-weight:bold;
-    font-size:24px;
-}
-
-.page-head {
-    background-color:rgb(89,170,165); 
-    color:white !important; 
-    padding:15px 20px;
-} 
 
 .navbar-light .navbar-nav .menu-item {
     color:#ababab;
-}
-
-.column-sm-12 .float-sm-none .profile-pic {
-    align-items:center;
-    float: left;
-    max-width:30%;
-    height:auto;
-    flex-wrap: wrap;
-
-}
-
-.profile-pic {
-    width:200px;
-    height:200px;
-    float: left !important;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-
-.port-image {
-    position: relative;
-    padding:10px;
-    align:center;
-    float:none;
-    margin-bottom:50px;
-
-}
-
-.port-label {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 60%;
-    text-align:center;
-    width: 90%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: bold;
-    color: white;
-    font-size: 18px;
-    background-color: rgb(89,170,165);
-    padding: 10px;
 }
 
 footer {
@@ -80,3 +23,62 @@ footer {
     border-top-width: 5px;
     border-top-color: rgb(89,170,165);
 }
+
+.hidden {
+  display: none;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    display: block;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+  }
+
+  .container {
+    position: relative;
+    top: 100%;
+    left: 50%;
+    float: none;
+  }
+
+  /* Add some content at the bottom of the video/page */
+  .content {
+    margin: auto;
+    left: 15%;
+    position: fixed;
+    text-align: center;
+    bottom: 40%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 50%;
+    color: #f1f1f1;
+    width: 60%;
+    padding: 20px;
+    display: block;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 70px;
+    position: fixed;
+    display: inline-block;
+    bottom: 5%;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
