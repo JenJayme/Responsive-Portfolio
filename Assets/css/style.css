@@ -47,6 +47,10 @@ footer {
   box-shadow: 0px 0px 6px 6px cadetblue;
 }
 
+.container {
+  margin: 5%;
+}
+
 /* Add some content at the bottom of the video/page */
 .content {
   margin: auto;
@@ -59,7 +63,7 @@ footer {
   color: #f1f1f1;
   width: 60%;
   padding: 20px;
-  display: block;
+  display: inline-block;
 }
 
 .detail-label {
