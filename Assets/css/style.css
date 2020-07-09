@@ -1,9 +1,41 @@
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  background-image: url("../images/milky-way-darken.png");
+}
+
 p {
     font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
 }
 
 h1 {
+    color: whitesmoke;
     font-family: 'Quicksand', sans-serif;
+    text-shadow: 0px 0px 6px 6px #c91a8f;
+    font-weight: bold;
+}
+
+h3 {
+  color: #534949;
+  border-color: #534949;
+  border-bottom: #534949;
+  border-bottom-style: solid;
+}
+
+hr {
+  color: #534949;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  color:whitesmoke;
+  background: rgb(6, 58, 58);
+  opacity: 50%;
+  padding: 15px;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: black;
 }
 
 .bio {
@@ -11,12 +43,6 @@ h1 {
   margin-top: 20px;
 }
 
-.box-content {
-  background-color:whitesmoke;
-  padding:20px 50px 15px;
-  /* max-width:40%; */
-  margin-left:30px;
-}
 
 /* Add some content at the bottom of the video/page */
 .content {
@@ -33,24 +59,8 @@ h1 {
   display: block;
 }
 
-.name {
-    font-size: 40px;
-}
-
-.navbar-light .navbar-nav .menu-item {
-    color:#ababab;
-}
-
-footer {
-    display: block;
-    text-align: center;
-    color:whitesmoke;
-    background: rgb(6, 58, 58);
-    opacity: 50%;
-    padding: 15px;
-    border-top-style: solid;
-    border-top-width: 5px;
-    border-top-color: black;
+.detail-label {
+  font-size: small;
 }
 
 .hidden {
@@ -79,12 +89,21 @@ footer {
     padding-bottom: 20px;
   }
 
+  .name {
+    font-size: 40px;
+  }
+
+  .navbar-light .navbar-nav .menu-item {
+    padding-left: 10px;
+    color:#ababab;
+  }
+
   /* Styles the button used to pause/play the video */
   #pauseBtn {
     width: 70px;
     position: fixed;
     display: inline-block;
-    top: 10%;
+    top: 12%;
     font-size: 14px;
     padding: 10px;
     border: none;
@@ -94,19 +113,34 @@ footer {
   }
   
   #pauseBtn:hover {
-    background: #ddd;
-    color: black;
+    background: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    opacity: 60%;
+    text-shadow: 0px 0px 6px 6px cadetblue;
   }
 
   .photos {
-    float: none;
-    height: 100px;
+    display: inline;
+    opacity: 50%;
+    padding-top: 10px;
     position: relative;
+  }
+  
+  #photo-eye {
+    height: 340px;
+  }
+
+  #photo-cole {
+    height: 385px;
+  }
+
+  #photo-jack {
+    height: 410px;
   }
 
   .port-image {
-    background-color:blue;
-    border-color:white;
+    height: 100px%;
+    width: auto;
     position: relative;
     padding:10px;
     align:center;

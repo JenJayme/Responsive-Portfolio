@@ -1,59 +1,52 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
 
-    
-    <title>Jen Jayme | Portfolio</title>
-    <!-- Optional JavaScript -->
+  <!--Styling-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <link type="text/css" rel="stylesheet" href="Assets/materialize/materialize.min.css" media="screen,projection" />
 
+  <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cabin&family=Inconsolata&family=Nunito&family=Nunito+Sans&family=Pacifico&family=Quicksand&family=Rubik&family=VT323&display=swap"
+    rel="stylesheet">
+
+
+  <!--Script-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
 
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <div class="navbar-header">
-          <navbar-header>
+      <!--Navigation Bar with sidebar slide-out function on mobile-->
+  <nav>
+    <div class="nav-wrapper pink darken-4">
+      <a href="#" class="brand-logo center">Jen Jayme</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-      <a class="navbar-brand page-head" href="#">Jen Jayme</a> 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </navbar-brand>
-  </div>
-</div>    
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav navbar-right">
-    <li class="nav-item">
-      <a class="nav-link menu-item" href="index.html">About <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link menu-item" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link menu-item active" href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
-    </ul>
-  </div>
-</nav>
-<div class="box-background">
-  <br>
-  
-<div class="container box-content">
+      <ul class="left hide-on-med-and-down">
+        <li><a id="home" href="index.html">Home</a></li>
+        <li><a id="about" href="about.html">About</a></li>
+        <li><a id="contact" href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+<div class="container">
   <div class="row">
-    <div class="col-sm-12"><h3>Contact</h3>
-      <hr>
+    <div class="col">
+      <h3>Contact</h3>
     </div>
   </div>
     <div class="row">
@@ -79,9 +72,33 @@
         </div><!--end column-->
       </div><!--end row-->
     </div>
-  <br><br>
-  <footer>
-    @Copyright
-  </footer>>
+  </div>
+  
+    <footer class="page-footer pink darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text"></h5>
+            <p class="grey-text text-lighten-4">Background photo by Felix Mittermeier courtesy of <span class="grey-text"><a
+                href="https://pixabay.com">Pixabay</a></span>
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">contact</h5>
+            <ul>
+              <li class="grey-text text-lighten-4">408.455.5643</li>
+              <li><a class="grey-text text-lighten-4" href="mailto: jeniferjayme@gmail.com">jeniferjayme@gmail.com</a>
+              </li>
+              <li><a class="grey-text text-lighten-4" href="https://www.linkedin.com/in/jenjayme/">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © Copyright
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
